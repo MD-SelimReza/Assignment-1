@@ -301,3 +301,55 @@ body{
     background: #F00;
 }
 
+/* footer section styling */
+.footer{
+    width: 100%;
+    max-width: 1600px;
+    background: #070211;
+    padding: 120px 140px;
+    margin: 0 auto;
+}
+.footer .address_content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .address_content .street_address p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer .address_content .link_address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 150px;
+}
+.footer .address_content .link_address .telephone, .website{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footer .address_content .link_address img{
+    margin-right: 16px;
+}
+.horizontal_line{
+    margin: 50px auto;
+}
+.footer .social_media_link{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.footer .rights{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
