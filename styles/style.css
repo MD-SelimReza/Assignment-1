@@ -17,7 +17,7 @@ body{
 .new_year{
     width: 80%;
     max-width: 1320px;
-    background-image: url('/resources/Banner\ Image.png');
+    background-image: url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px auto;
@@ -76,7 +76,7 @@ body{
 .welcome{
     width: 80%;
     max-width: 1320px;
-    background-image: url('/resources/Vectorrr.png');
+    background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px auto;
@@ -156,3 +156,55 @@ body{
     border-radius: 8px;
     background: #F00;
 }
+
+/* offer section styling */
+.best_offer{
+    width: 80%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    margin: 100px auto;
+}
+.best_offer .offer_content .offer_content_title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.best_offer .offer_content .offer_content_greeting{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+.best_offer .offer_content .offer_content_description{
+    max-width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.best_offer .image_content img{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49px;
+}
+.best_offer .happy_content .happy_content_title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.best_offer .happy_content .happy_content_description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 300px;
+}
+
