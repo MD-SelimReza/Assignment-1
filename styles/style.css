@@ -208,6 +208,61 @@ body{
     max-width: 300px;
 }
 
+/* holiday section styling */
+.holiday{
+    width: 80%;
+    max-width: 1320px;
+    margin: 100px auto;
+}
+.holiday .holiday_content{
+    text-align: center;
+}
+.holiday .holiday_content .holiday_heading{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.holiday .holiday_content .holiday_title{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.holiday .holiday_content .holiday_description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 68px;
+}
+.holiday .images{
+    position: relative;
+}
+.holiday .images .image1{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.holiday .images .image2{
+    position: absolute;
+    bottom: 0;
+}
+.holiday .images .image3{
+    position: relative;
+    z-index: 999;
+}
+.holiday .images .image4{
+    position: relative;
+    bottom: 280px;
+    right: 55px;
+    z-index: 999;
+}
+
 /* best gift section styling */
 .best_gift{
     width: 80%;
