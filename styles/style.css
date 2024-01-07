@@ -1,0 +1,56 @@
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+
+/* common type styling */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* header section styling */
+.new_year{
+    width: 80%;
+    max-width: 1320px;
+    background-image: url('/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+.new_year .new_year_content{
+    padding: 177px 344px;
+}
+.new_year .new_year_content .new_year_greeting{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+.new_year .new_year_content .new_year_title{
+    color: #FFF;
+    text-align: center;
+    max-width: 600px;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* deals section styling */
+.deals{
+    text-align: center;
+    margin: 70px auto;
+}
+.deals .deals_title{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
