@@ -102,13 +102,57 @@ body{
     margin-bottom: 32px;
 }
 .welcome .welcome_content .join_now_btn{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
     color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-left: 32px;
     border: none;
     background-color: transparent;
+}
+
+/* new park hotel section styling */
+.new_park_hotel{
+    width: 80%;
+    max-width: 1320px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 100px auto;
+    border-radius: 16px;
+}
+.new_park_hotel .new_park_hotel_content{
+    text-align: center;
+    padding: 100px 385px;
+}
+.new_park_hotel .new_park_hotel_content .container{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+.new_park_hotel .new_park_hotel_content .container .red{
+    color: #F00;
+}
+.new_park_hotel .new_park_hotel_content .join_now_btn{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
 }
