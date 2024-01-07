@@ -208,3 +208,36 @@ body{
     max-width: 300px;
 }
 
+/* best gift section styling */
+.best_gift{
+    width: 80%;
+    max-width: 1320px;
+    margin: 100px auto;
+}
+.best_gift .best_gift_heading{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.best_gift .best_gift_title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+.best_gift .best_gift_description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.best_gift .image_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
