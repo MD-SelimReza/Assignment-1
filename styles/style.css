@@ -83,10 +83,13 @@ body{
     margin: 0 auto;
     border-radius: 16px;
 }
-.welcome .welcome_content{
-    padding: 126px 552px 142px 126px;
+.welcome .welcome_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 68px 138px 126px;
 }
-.welcome .welcome_content .welcome_title{
+.welcome .welcome_container .welcome_content .welcome_title{
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -94,14 +97,14 @@ body{
     letter-spacing: 7.04px;
     margin-bottom: 24px;
 }
-.welcome .welcome_content .welcome_description{
+.welcome .welcome_container .welcome_content .welcome_description{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
 }
-.welcome .welcome_content .join_now_btn{
+.welcome .welcome_container .welcome_content .join_now_btn{
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -115,6 +118,8 @@ body{
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+.welcome .welcome_container image{
 }
 
 /* new park hotel section styling */
@@ -249,9 +254,9 @@ body{
 .holiday .images .image1{
     position: absolute;
     right: 0;
-    top: 10px;
 }
 .holiday .images .image2{
+    width: 100%;
     position: absolute;
     bottom: 0;
 }
@@ -260,9 +265,9 @@ body{
     z-index: 999;
 }
 .holiday .images .image4{
-    position: relative;
-    bottom: 280px;
-    right: 55px;
+    position: absolute;
+    top: 10%;
+    right: 21%;
     z-index: 999;
 }
 
