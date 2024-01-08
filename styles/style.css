@@ -119,7 +119,8 @@ body{
     background-color: transparent;
     cursor: pointer;
 }
-.welcome .welcome_container image{
+.welcome .welcome_container .welcome_content .join_now_btn:hover{
+    color: #F00;
 }
 
 /* new park hotel section styling */
@@ -159,6 +160,11 @@ body{
     border: none;
     border-radius: 8px;
     background: #F00;
+    cursor: pointer;
+}
+.new_park_hotel .new_park_hotel_content .join_now_btn:hover{
+    background: #726a6a;
+    color: #F00;
 }
 
 /* offer section styling */
@@ -195,6 +201,10 @@ body{
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 40px;
+}
+.best_offer .image_content img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 .best_offer .happy_content{
     margin-left: 40px;
@@ -303,6 +313,10 @@ body{
     flex-wrap: wrap;
     gap: 24px;
 }
+.best_gift .image_container .img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
 
 /* newsletter section styling */
 .newsletter{
@@ -361,6 +375,7 @@ body{
     padding: 24px 56px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+    cursor: pointer;
 }
 
 /* footer section styling */
@@ -408,6 +423,10 @@ body{
     align-items: center;
     gap: 24px;
 }
+.footer .social_media_link .link_icon:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
 .footer .rights{
     display: flex;
     justify-content: space-between;
@@ -416,4 +435,7 @@ body{
     font-size: 24px;
     font-weight: 500;
 }
+
+
+/* Coding By MD.SELIM REZA */
 
