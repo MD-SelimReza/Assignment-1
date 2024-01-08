@@ -1,4 +1,4 @@
-/* fonts link */
+/* google fonts link */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
 
 /* common type styling */
@@ -12,15 +12,18 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
+#max_width{
+    width: 80%;
+    max-width: 1320px;
+    margin-bottom: 120px;
+}
 
 /* header section styling */
 .new_year{
-    width: 80%;
-    max-width: 1320px;
-    background-image: url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px auto;
+    margin: 50px auto 0;
     border-radius: 16px;
 }
 .new_year .new_year_content{
@@ -45,7 +48,7 @@ body{
 /* deals section styling */
 .deals{
     text-align: center;
-    margin: 120px auto;
+    margin: 0 auto;
 }
 .deals .deals_title{
     color: #F00;
@@ -74,14 +77,11 @@ body{
 
 /* welcome section styling */
 .welcome{
-    width: 80%;
-    max-width: 1320px;
-    background-image: url('../resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px auto;
+    margin: 0 auto;
     border-radius: 16px;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 .welcome .welcome_content{
     padding: 126px 552px 142px 126px;
@@ -114,19 +114,18 @@ body{
     text-transform: uppercase;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 /* new park hotel section styling */
 .new_park_hotel{
-    width: 80%;
-    max-width: 1320px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    margin: 100px auto;
+    margin: 0 auto;
     border-radius: 16px;
 }
 .new_park_hotel .new_park_hotel_content{
     text-align: center;
-    padding: 100px 385px;
+    padding: 100px 385px 110px;
 }
 .new_park_hotel .new_park_hotel_content .container{
     color: #070211;
@@ -159,13 +158,11 @@ body{
 
 /* offer section styling */
 .best_offer{
-    width: 80%;
-    max-width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 70px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 .best_offer .offer_content .offer_content_title{
     color: #F00;
@@ -192,13 +189,17 @@ body{
 .best_offer .image_content img{
     border-radius: 463px;
     border: 15px solid #F00;
-    padding: 49px;
+    padding: 40px;
+}
+.best_offer .happy_content{
+    margin-left: 40px;
 }
 .best_offer .happy_content .happy_content_title{
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 .best_offer .happy_content .happy_content_description{
     color: rgba(7, 2, 17, 0.60);
@@ -206,13 +207,12 @@ body{
     font-size: 20px;
     font-weight: 400;
     max-width: 300px;
+    margin-bottom: 43px;
 }
 
 /* holiday section styling */
 .holiday{
-    width: 80%;
-    max-width: 1320px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 .holiday .holiday_content{
     text-align: center;
@@ -231,6 +231,9 @@ body{
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 28px;
+}
+.holiday .holiday_content .holiday_title .black{
+    color: #070211;
 }
 .holiday .holiday_content .holiday_description{
     color: rgba(7, 2, 17, 0.60);
@@ -265,9 +268,7 @@ body{
 
 /* best gift section styling */
 .best_gift{
-    width: 80%;
-    max-width: 1320px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 .best_gift .best_gift_heading{
     color: #F00;
@@ -285,10 +286,12 @@ body{
     margin-bottom: 32px;
 }
 .best_gift .best_gift_description{
+    max-width: 896px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 48px;
 }
 .best_gift .image_container{
     display: flex;
@@ -298,9 +301,7 @@ body{
 
 /* newsletter section styling */
 .newsletter{
-    width: 80%;
-    max-width: 1320px;
-    margin: 100px auto;
+    margin: 0 auto;
     text-align: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -318,6 +319,7 @@ body{
     text-transform: capitalize;
 }
 .newsletter .newsletter_description{
+    max-width: 896px;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -367,6 +369,7 @@ body{
 .footer .address_content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .footer .address_content .street_address p{
     color: #FFF;
@@ -397,6 +400,7 @@ body{
 .footer .social_media_link{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
 }
 .footer .rights{
