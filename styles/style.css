@@ -15,7 +15,7 @@ body{
 #max_width{
     width: 80%;
     max-width: 1320px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 /* header section styling */
@@ -23,25 +23,25 @@ body{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 50px auto 0;
-    border-radius: 16px;
+    margin: 40px auto 0;
+    border-radius: 14px;
 }
 .new_year .new_year_content{
-    padding: 177px 344px;
+    padding: 80px 100px 90px;
+    margin: auto;
 }
 .new_year .new_year_content .new_year_greeting{
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
 }
 .new_year .new_year_content .new_year_title{
     color: #FFF;
     text-align: center;
-    max-width: 600px;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 900;
 }
 
@@ -54,15 +54,15 @@ body{
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 88px;
+    font-size: 66px;
     font-weight: 700;
-    margin-bottom: 48px;
+    margin-bottom: 34px;
 }
 .deals .better_deals{
     color: #F00;
     text-align: center;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -70,9 +70,12 @@ body{
     color: #070211;
     text-align: center;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 700;
-    margin-bottom: 48px;
+    margin-bottom: 35px;
+}
+.deals .new_year_image img{
+    width: 550px;
 }
 
 /* welcome section styling */
@@ -81,38 +84,44 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    border-radius: 16px;
+    border-radius: 14px;
 }
 .welcome .welcome_container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 68px 138px 126px;
+    padding: 40px 85px 45px;
+}
+.welcome .welcome_container .welcome_content{
+    width: 420px;
+}
+.welcome .welcome_container .image img{
+    width: 190px;
 }
 .welcome .welcome_container .welcome_content .welcome_title{
     color: #FFF;
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 36px;
     font-weight: 900;
-    letter-spacing: 7.04px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 5.04px;
 }
 .welcome .welcome_container .welcome_content .welcome_description{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 400;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 .welcome .welcome_container .welcome_content .join_now_btn{
     display: inline-flex;
-    padding: 16px 32px;
+    padding: 12px 25px;
     justify-content: center;
     align-items: center;
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     border: none;
@@ -127,34 +136,36 @@ body{
 .new_park_hotel{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: 0 auto;
-    border-radius: 16px;
+    border-radius: 14px;
 }
 .new_park_hotel .new_park_hotel_content{
     text-align: center;
-    padding: 100px 385px 110px;
+    padding: 60px 185px 60px;
 }
 .new_park_hotel .new_park_hotel_content .container{
     color: #070211;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 600;
-    line-height: 56px;
     text-transform: capitalize;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
+}
+.new_park_hotel .new_park_hotel_content .container p{
+    margin-bottom: 8px;
 }
 .new_park_hotel .new_park_hotel_content .container .red{
     color: #F00;
 }
 .new_park_hotel .new_park_hotel_content .join_now_btn{
     display: inline-flex;
-    padding: 16px 32px;
+    padding: 12px 25px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     border: none;
@@ -172,57 +183,59 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 70px;
+    gap: 40px;
     margin: 0 auto;
 }
 .best_offer .offer_content .offer_content_title{
     color: #F00;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .best_offer .offer_content .offer_content_greeting{
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 900;
     text-transform: capitalize;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 .best_offer .offer_content .offer_content_description{
-    max-width: 393px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
 }
 .best_offer .image_content img{
     border-radius: 463px;
-    border: 15px solid #F00;
-    padding: 40px;
+    border: 8px solid #F00;
+    padding: 15px;
+    width: 250px;
 }
 .best_offer .image_content img:hover{
     transform: scale(1.05);
     transition: all 0.3s ease;
 }
 .best_offer .happy_content{
-    margin-left: 40px;
+    width: 550px;
 }
 .best_offer .happy_content .happy_content_title{
     color: #F00;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 22px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 .best_offer .happy_content .happy_content_description{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
-    max-width: 300px;
-    margin-bottom: 43px;
+    margin-bottom: 36px;
+}
+.best_offer .happy_content img{
+    width: 85px;
 }
 
 /* holiday section styling */
@@ -235,17 +248,17 @@ body{
 .holiday .holiday_content .holiday_heading{
     color: #070211;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 .holiday .holiday_content .holiday_title{
     color: #F00;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 48px;
     font-weight: 900;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
 }
 .holiday .holiday_content .holiday_title .black{
     color: #070211;
@@ -254,16 +267,20 @@ body{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 500;
-    margin-bottom: 68px;
+    width: 600px;
+    margin: auto;
 }
 .holiday .images{
+    margin-top: 50px;
     position: relative;
 }
 .holiday .images .image1{
+    width: 250px;
     position: absolute;
     right: 0;
+    top: -14px;
 }
 .holiday .images .image2{
     width: 100%;
@@ -271,13 +288,15 @@ body{
     bottom: 0;
 }
 .holiday .images .image3{
+    width: 450px;
     position: relative;
     z-index: 999;
 }
 .holiday .images .image4{
-    position: absolute;
-    top: 10%;
-    right: 21%;
+    width: 180px;
+    position: relative;
+    left: 10px;
+    bottom: 170px;
     z-index: 999;
 }
 
@@ -288,31 +307,34 @@ body{
 .best_gift .best_gift_heading{
     color: #F00;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 .best_gift .best_gift_title{
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 900;
     text-transform: capitalize;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 .best_gift .best_gift_description{
-    max-width: 896px;
+    width: 650px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
 }
 .best_gift .image_container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 20px;
+}
+.best_gift .image_container .img img{
+    width: 250px;
 }
 .best_gift .image_container .img:hover{
     transform: scale(1.05);
@@ -323,37 +345,38 @@ body{
 .newsletter{
     margin: 0 auto;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 14px;
     background: rgba(255, 0, 0, 0.05);
-    padding: 80px 0;
+    padding: 50px 0;
+    text-align: center;
 }
 .newsletter img{
-    margin-bottom: 40px;
+    width: 125px;
+    margin-bottom: 28px;
 }
 .newsletter .newsletter_title{
     color: #070211;
     text-align: center;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 900;
     text-transform: capitalize;
 }
 .newsletter .newsletter_description{
-    max-width: 896px;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
-    padding: 0 212px;
-    margin-top: 20px;
-    margin-bottom: 48px;
+    padding: 0 90px;
+    margin-top: 16px;
+    margin-bottom: 34px;
 }
 .newsletter .user_content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 550px;
+    max-width: 450px;
     border-radius: 50px;
     background: #FFF;
     margin: 0 auto;
@@ -362,18 +385,22 @@ body{
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
-    padding: 25px 30px;
+    padding: 12px 32px;
+}
+.newsletter .user_content .user input{
+    border: none;
 }
 .newsletter .user_content .subscribe{
     color: #FFF;
     text-align: center;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
-    padding: 24px 56px;
+    padding: 12px 26px;
+    border: none;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     cursor: pointer;
@@ -384,8 +411,10 @@ body{
     width: 100%;
     max-width: 1600px;
     background: #070211;
-    padding: 120px 140px;
     margin: 0 auto;
+}
+.footer .footer-container{
+    padding: 50px 45px;
 }
 .footer .address_content{
     display: flex;
@@ -395,16 +424,16 @@ body{
 .footer .address_content .street_address p{
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 .footer .address_content .link_address{
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
-    margin-right: 150px;
+    margin-right: 70px;
 }
 .footer .address_content .link_address .telephone, .website{
     display: flex;
@@ -413,16 +442,16 @@ body{
     margin-bottom: 10px;
 }
 .footer .address_content .link_address img{
-    margin-right: 16px;
+    margin-right: 12px;
 }
 .horizontal_line{
-    margin: 50px auto;
+    margin: 30px auto;
 }
 .footer .social_media_link{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 20px;
 }
 .footer .social_media_link .link_icon:hover{
     transform: scale(1.05);
@@ -433,7 +462,7 @@ body{
     justify-content: space-between;
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
 }
 
